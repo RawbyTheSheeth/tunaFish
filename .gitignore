@@ -1,0 +1,61 @@
+# Build artifacts
+*.o
+*.obj
+*.ko
+*.mod.c
+*.mod
+*.elf
+*.gch
+*.pch
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+*.ipa
+*.dSYM
+*.map
+build/
+bin/
+obj/
+Debug/
+Release/
+x64/
+Win32/
+
+# Temporary files
+*~
+*.bak
+*.swp
+*.tmp
+*.log
+*.scc
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.ncb
+*.aps
+*.ilk
+*.pdb
+*.ipch
+*.VC.db
+*.VC.VC.opendb
+*.vs/
+*.DS_Store
+Thumbs.db
+
+# CMake specific files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+
+# Other common exclusions
+*core
